@@ -1,0 +1,12 @@
+//task1
+#include<iostream>
+using namespace std;
+int main()
+{
+    double a;
+    cout<<"enter a float number"<<endl;
+    cin>>a;
+    cout<<"the original number"<<a<<endl;
+    cout<<"thr typecasted value is"<<(int)a;
+    return 0;
+}
