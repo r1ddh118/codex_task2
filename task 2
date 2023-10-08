@@ -1,0 +1,13 @@
+//task2
+#include<iostream>
+
+using namespace std;
+int main()
+{
+    float area=0,rad;
+    cout<<"enter the radius of the circle"<<endl;
+    cin>>rad;
+    area=3.14*rad*rad;
+    cout<<"area of the circle is "<<area;
+    return 0;
+}
