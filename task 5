@@ -1,0 +1,22 @@
+//task 5
+#include<iostream>
+using namespace std;
+int main()
+{
+    string c_password,u_password;
+    cout<<"enter the correct password"<<endl;
+    cin>>c_password;
+    while (true)
+    {
+        cout<<"enter the user password"<<endl;
+        cin>>u_password;
+        if (u_password==c_password)
+        {
+         cout<<"access granted";
+         break;
+        }
+        else
+        cout<<"try again "<<endl;
+    }
+    return 0;
+}
