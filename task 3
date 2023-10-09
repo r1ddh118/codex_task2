@@ -1,0 +1,12 @@
+// task 3
+#include <iostream>
+#include<ctime>
+#include<iomanip>
+using namespace std;
+int main()
+{
+  time_t now=time(0);
+  char*time_=ctime(&now);
+  cout<<"the current date and time"<<setw(8)<<time_<<endl;
+  return 0;
+}
